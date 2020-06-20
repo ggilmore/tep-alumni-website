@@ -7,20 +7,20 @@ DHALL_FILES=()
 
 mapfile -t DHALL_FILES < <(fd --extension dhall)
 
-function format() {
+function lint() {
   local file="$1"
 
-  local FORMAT_ARGS=(
-    "format"
+  local LINT_ARGS=(
+    "lint"
     "--inplace"
     "${file}"
   )
 
   if [ "${CHECK:-"false"}" == "true" ]; then
-    FORMAT_ARGS+=("--check")
+    LINT_ARGS+=("--check")
   fi
 
-  result=$(dhall "${FORMAT_ARGS[@]}" 2>&1)
+  result=$(dhall "${LINT_ARGS[@]}" 2>&1)
   rc=$?
 
   if [ -n "$result" ]; then
@@ -31,8 +31,8 @@ function format() {
 
   exit "$rc"
 }
-export -f format
+export -f lint
 
 echo 'will cite' | parallel --citation &>/dev/null
 
-parallel --keep-order --line-buffer format {} ::: "${DHALL_FILES[@]}"
+parallel --keep-order --line-buffer lint {} ::: "${DHALL_FILES[@]}"

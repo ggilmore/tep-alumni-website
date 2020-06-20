@@ -8,7 +8,11 @@ let shfmt = ./jobs/shfmt.dhall
 
 let checkDocs = ./jobs/check-docs-up-to-date.dhall
 
+let checkPipeline = ./jobs/check-rendered-pipeline-up-to-date.dhall
+
 let dhallFormat = ./jobs/dhall-format.dhall
+
+let dhallLint = ./jobs/dhall-lint.dhall
 
 in  GitHubActions.Workflow::{
     , name = "CI"
@@ -18,5 +22,13 @@ in  GitHubActions.Workflow::{
         , branches = Some [ "master" ]
         }
       }
-    , jobs = toMap { prettier, shellcheck, shfmt, checkDocs, dhallFormat }
+    , jobs = toMap
+        { prettier
+        , shellcheck
+        , shfmt
+        , checkDocs
+        , dhallFormat
+        , dhallLint
+        , checkPipeline
+        }
     }

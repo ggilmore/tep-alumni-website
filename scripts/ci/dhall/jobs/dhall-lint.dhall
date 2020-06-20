@@ -11,7 +11,7 @@ in  Job::{
     , steps =
           SetupSteps
         # [ GitHubActions.Step::{
-            , name = Some "Check that dhall files are formatted"
+            , name = Some "Check that dhall files are linted properly"
             , run = Some "scripts/dhall-format.sh"
             , env = Some (toMap { CHECK = "true" })
             }
