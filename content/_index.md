@@ -2,10 +2,6 @@
 title: "About"
 ---
 
-<!-- <p align="center">
-  <img src="/tep-alumni-website/img/xiohazard.png" />
-</p> -->
-
 {{< figure src="/tep-alumni-website/img/xiohazard.png" position="center" >}}
 
 The Alumni Association of Xi Chapter of Tau Epsilon Phi, Inc., or AlumXi, aim to promote fellowship and communication amongst current members and Alumni of of the Xi Chapter of Tau Epsilon Phi, to promote fellowship and communication between Xi and other Tau Epsilon Phi chapters, and to promote fellowship and communication between Xi and TEP National. We also aim to engage in activities that improve relations between Xi Chapter and the community, engage in activities that help provide safe and affordable housing for students, and to provide for scholastic, educational and managerial opportunities for the chapter and its members.
