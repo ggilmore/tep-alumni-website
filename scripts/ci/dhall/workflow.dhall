@@ -17,10 +17,8 @@ let dhallLint = ./jobs/dhall-lint.dhall
 in  GitHubActions.Workflow::{
     , name = "CI"
     , on = GitHubActions.On::{
-      , push = Some GitHubActions.Push::{ branches = Some [ "master" ] }
-      , pull_request = Some GitHubActions.PullRequest::{
-        , branches = Some [ "master" ]
-        }
+      , push = Some GitHubActions.Push::{=}
+      , pull_request = Some GitHubActions.PullRequest::{=}
       }
     , jobs = toMap
         { prettier

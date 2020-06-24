@@ -111,9 +111,5 @@ jobs:
         run: scripts/ci/shfmt.sh
 name: CI
 on:
-  pull_request:
-    branches:
-      - master
-  push:
-    branches:
-      - master
+  pull_request: {}
+  push: {}
