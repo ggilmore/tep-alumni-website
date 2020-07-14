@@ -1,6 +1,7 @@
 ---
 title: "About"
 ---
+
 {{< figure src="/tep-alumni-website/img/xiohazard.png" position="center" >}}
 
 The Alumni Association of Xi Chapter of Tau Epsilon Phi, Inc., or
@@ -21,17 +22,17 @@ In addition to the TEP values of friendship, chivalry and service, Xi chapter an
 
 # Executive Board
 
-| Members                     |  Position                      |
-| --------------------------- | ------------------------------ |
-| Colleen Josephson	      | President
-| Andrew Sudbury              | Vice-President                 |
-| Niko Matsakis               | Treasurer and Registered Agent |
-| Avril Kenney                | Secretary                      |
-| Carrie Fowle                | Communications Manager         |
-| Nick Matsakis               | Records Manager                |
-| Baris Yuksel                | Fundraising Chair              |
-| Del Merritt                 | Director                       |
-| Ian Collier                 | Undergrad Liaison              |
+| Members           | Position                       |
+| ----------------- | ------------------------------ |
+| Colleen Josephson | President                      |
+| Andrew Sudbury    | Vice-President                 |
+| Niko Matsakis     | Treasurer and Registered Agent |
+| Avril Kenney      | Secretary                      |
+| Carrie Fowle      | Communications Manager         |
+| Nick Matsakis     | Records Manager                |
+| Baris Yuksel      | Fundraising Chair              |
+| Del Merritt       | Director                       |
+| Ian Collier       | Undergrad Liaison              |
 
 To reach the executive board:
 

@@ -9,7 +9,7 @@ Note that AlumXi is a 501(c)7 not-for-profit and contributions are
 
 You can make a donation via [PayPal](https://www.paypal.com/) using
 the “Donate” button below. You get to pick the amount of your
-donation.  May we suggest $22.22 or $222.22?
+donation. May we suggest $22.22 or $222.22?
 
 {{< rawhtml >}}
 
@@ -25,6 +25,7 @@ donation.  May we suggest $22.22 or $222.22?
 
 You can also make a make a recurring monthly donation via [PayPal](https://www.paypal.com/) using the “Subscribe” button below. At the moment you can only pick from some pre-selected options. Eit!
 {{< rawhtml >}}
+
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="center" ><input name="cmd" type="hidden" value="_s-xclick">
 <input name="hosted_button_id" type="hidden" value="F85FTN5BHGL4J">&nbsp;<p></p>
 <table>
@@ -47,8 +48,8 @@ You can also make a make a recurring monthly donation via [PayPal](https://www.p
 
 Note this payment will **continue until you stop it**. (You can stop it from the **My preapproved payments** section on the [PayPal web site](https://www.paypal.com/), or you can write to us for help.)
 
-
 ## How to Make a Donation by Mail
+
 [PayPal](https://www.paypal.com/) charges a **`$0.30 + 2.9%` transaction fee**, so it’s not a good choice for large donations. To avoid this fee, either send a check (below) or have your bank/brokerage send funds directly (contact the treasurer for details).
 
 Checks should be made out to “Alumni Association of Xi Chapter of Tau Epsilon Phi” and mailed to:
@@ -72,7 +73,7 @@ Phi Inc are `$5`, and can be paid by PayPal or check. Any amount above
 
 # Donating to Xi Chapter Directly
 
-You can also send a check directly to the undergraduates. This is also *not* tax deductible.
+You can also send a check directly to the undergraduates. This is also _not_ tax deductible.
 
 ```
 Tau Epsilon Phi Xi Chapter
@@ -80,9 +81,7 @@ Tau Epsilon Phi Xi Chapter
 Boston, MA 02116
 ```
 
-
-#  Giving to MIT
-
+# Giving to MIT
 
 Giving money to MIT helps maintain MIT’s educational excellence and assists the current generation of MIT students to cope with eye-popping cost of an MIT education.
 
